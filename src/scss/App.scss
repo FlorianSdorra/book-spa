@@ -1,0 +1,55 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+
+  .app {
+    width: 100%;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+   .category{
+    
+     .header{
+       
+       background-color: gainsboro;
+       position: sticky;
+       top: 0;
+       width:auto;
+       height: 100px;
+       display: flex;
+       justify-content: space-between;
+       border-top: white 5px solid;
+       border-right: white 5px solid;
+       border-left: white 5px solid;
+       border-radius: 5px;
+       
+      
+       .image{
+         height: 100%;
+         
+         img{
+           height: 100%;
+           margin: 5px;
+           border: 1px solid black;
+         }
+       }
+       .title{
+         
+         padding: 10px;
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-end;
+         
+         .outline{
+          color: white;
+          -webkit-text-stroke: 2px black;
+         }
+       }
+     }
+
+   }
+  }
+}
+
+
