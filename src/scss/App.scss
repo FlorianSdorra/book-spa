@@ -47,9 +47,30 @@ html, body{
      }
 
      .books-container{
+       
        width: 100%;
        .book{
+         margin-top: 10px;
          display: flex;
+         width: 100%;
+         display: flex;
+         justify-content: center;
+         .left{
+           flex: 1;
+           display: flex;
+           justify-content: center;
+          
+           img{
+             width: 60%;
+           }
+
+         }
+         .right{
+          flex:2;
+          line-height: 1.4;
+          padding: 10px;
+          
+         }
        }
      }
 
