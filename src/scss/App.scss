@@ -19,19 +19,21 @@ html, body{
        height: 100px;
        display: flex;
        justify-content: space-between;
-       border-top: white 5px solid;
-       border-right: white 5px solid;
-       border-left: white 5px solid;
+       border: black .5px solid;
        border-radius: 5px;
        
       
        .image{
          height: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         margin-right: 3px;
          
          img{
-           height: 100%;
-           margin: 5px;
-           border: 1px solid black;
+           height: 95%;
+           border: 2px solid darkgrey;
+           border-radius: 3px;
          }
        }
        .title{
@@ -41,10 +43,6 @@ html, body{
          flex-direction: column;
          justify-content: flex-end;
          
-         .outline{
-          color: white;
-          -webkit-text-stroke: 2px black;
-         }
        }
      }
 
