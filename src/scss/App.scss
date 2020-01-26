@@ -4,14 +4,14 @@ html, body{
   margin: 0;
 
   .app {
+    background-color: rgb(230, 226, 208);
     width: 100%;
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
 
    .category{
-    
+
      .header{
-       
        background-color: gainsboro;
        position: sticky;
        top: 0;
@@ -21,8 +21,7 @@ html, body{
        justify-content: space-between;
        border: black .5px solid;
        border-radius: 5px;
-       
-      
+
        .image{
          height: 100%;
          display: flex;
@@ -37,24 +36,28 @@ html, body{
          }
        }
        .title{
-         
          padding: 10px;
          display: flex;
          flex-direction: column;
          justify-content: flex-end;
-         
        }
      }
 
      .books-container{
-       
        width: 100%;
+       
+       .book:last-child{
+        margin-bottom: 10px;
+      }
+
        .book{
          margin-top: 10px;
          display: flex;
          width: 100%;
          display: flex;
          justify-content: center;
+         
+
          .left{
            flex: 1;
            display: flex;
@@ -63,19 +66,38 @@ html, body{
            img{
              width: 60%;
            }
-
          }
          .right{
           flex:2;
           line-height: 1.4;
           padding: 10px;
-          
+
+          .btn{
+            display: inline-block;
+            padding: 0.35em 1.2em;
+            border:0.1em solid black;
+            margin:0 0.3em 0.3em;
+            border-radius:0.12em;
+            box-sizing: border-box;
+            text-decoration:none;
+            font-family:'Roboto',sans-serif;
+            font-weight:300;
+            color:#000000;
+            text-align:center;
+            transition: all 0.2s;
+            
+          }
+          .btn:hover{
+            color:#FFFFFF;
+            background-color:#FFFFFF;
+            
+            }
+          }
          }
        }
      }
-
    }
   }
-}
+
 
 

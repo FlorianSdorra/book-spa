@@ -16,7 +16,7 @@ class Category extends React.Component{
         return(
                 <div className="category">
                     <div className="header">
-                        <div className="title"><h3 className="outline">{display_name}</h3></div>
+                        <div className="title"><h2>{display_name}</h2></div>
                         <div className="image">
                             <img src={list_image} alt={display_name}></img>
                         </div>

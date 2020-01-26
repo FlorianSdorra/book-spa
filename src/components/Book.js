@@ -20,7 +20,7 @@ class Book extends React.Component{
                     <h2>{title}</h2>
                     <h3>by:{author}</h3>
                     <p>{description}</p>
-                    <button onClick={()=>this.handleClick(buy_links[3].url)}>Buy from local Book Store</button>
+                    <button className="btn" onClick={()=>this.handleClick(buy_links[3].url)}>Buy from local Book Store</button>
 
                 </div>
             </div>
